@@ -1,3 +1,17 @@
+添加依赖：
+工程gradle:
+```
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
+项目moudle：
+```
+compile 'com.github.JiangAndroidwork:SlidingFinishAnimation:1.0.0'
+```
 > 可以把slidinglibrary库放到项目中，或者将里面的文件提取出来放在项目中。
 
 ## 注意：
